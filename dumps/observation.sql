@@ -100,23 +100,6 @@ ALTER TABLE ONLY v1.observation
 
 
 --
--- Name: TABLE observation; Type: ACL; Schema: v1; Owner: postgres
---
-
-GRANT ALL ON TABLE v1.observation TO monica_fit;
-GRANT SELECT ON TABLE v1.observation TO monica_accou;
-GRANT SELECT ON TABLE v1.observation TO monica_select;
-
-
---
--- Name: SEQUENCE observation_id_seq; Type: ACL; Schema: v1; Owner: postgres
---
-
-GRANT ALL ON SEQUENCE v1.observation_id_seq TO monica_fit;
-GRANT SELECT ON SEQUENCE v1.observation_id_seq TO monica_accou;
-
-
---
 -- PostgreSQL database dump complete
 --
 
