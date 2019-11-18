@@ -10,5 +10,3 @@ RUN conda install --quiet --yes \
 	'jupyter_contrib_nbextensions'
 	
 RUN conda install -c anaconda jupyter_client=5.3.1
-	
-RUN jupyter nbextension enable --py widgetsnbextension --sys-prefix
